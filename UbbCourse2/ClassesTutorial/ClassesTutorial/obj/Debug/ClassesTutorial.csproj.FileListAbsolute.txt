@@ -1,0 +1,6 @@
+E:\mvc\UbbCourse2\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe.config
+E:\mvc\UbbCourse2\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe
+E:\mvc\UbbCourse2\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.pdb
+E:\mvc\UbbCourse2\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.csprojResolveAssemblyReference.cache
+E:\mvc\UbbCourse2\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.exe
+E:\mvc\UbbCourse2\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.pdb

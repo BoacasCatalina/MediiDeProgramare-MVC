@@ -1,0 +1,10 @@
+E:\mvc\UbbCourse2\Principles\Principles\bin\Debug\Principles.exe.config
+E:\mvc\UbbCourse2\Principles\Principles\bin\Debug\Principles.exe
+E:\mvc\UbbCourse2\Principles\Principles\bin\Debug\Principles.pdb
+E:\mvc\UbbCourse2\Principles\Principles\obj\Debug\Principles.exe
+E:\mvc\UbbCourse2\Principles\Principles\obj\Debug\Principles.pdb
+E:\mvc\UbbCourse3\Principles\Principles\bin\Debug\Principles.exe.config
+E:\mvc\UbbCourse3\Principles\Principles\obj\Debug\Principles.exe
+E:\mvc\UbbCourse3\Principles\Principles\obj\Debug\Principles.pdb
+E:\mvc\UbbCourse3\Principles\Principles\bin\Debug\Principles.pdb
+E:\mvc\UbbCourse3\Principles\Principles\obj\Debug\Principles.csprojResolveAssemblyReference.cache
