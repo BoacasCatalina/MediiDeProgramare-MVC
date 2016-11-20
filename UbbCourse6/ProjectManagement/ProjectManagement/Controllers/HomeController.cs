@@ -41,5 +41,10 @@ namespace ProjectManagement.Controllers
             return Content("The sum of numbers is: " + sumOfListNumbers + "<br>" + "The average of numbers is: " + averageOfNumbers);
            
         }
+
+        public ActionResult HelloWorld()
+        {
+            return Content("Hello World");
+        }
     }
 }
