@@ -30,5 +30,16 @@ namespace ProjectManagement.Controllers
 
             return View();
         }
+
+        public ActionResult CalculateAverage()
+        {
+            List<int> listOfNumbers = new List<int> { 2, 3, 4, 5, 6, 7, 7, 8, 9, 13 };
+
+            double sumOfListNumbers = listOfNumbers.Sum();
+            double averageOfNumbers = sumOfListNumbers / 2;
+
+            return Content("The sum of numbers is: " + sumOfListNumbers + "<br>" + "The average of numbers is: " + averageOfNumbers);
+           
+        }
     }
 }

@@ -161,3 +161,4 @@ E:\MediiDeProgramare-MVC\UbbCourse6\ProjectManagement\ProjectManagement\bin\Micr
 E:\MediiDeProgramare-MVC\UbbCourse6\ProjectManagement\ProjectManagement\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 E:\MediiDeProgramare-MVC\UbbCourse6\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.dll
 E:\MediiDeProgramare-MVC\UbbCourse6\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.pdb
+E:\MediiDeProgramare-MVC\UbbCourse6\ProjectManagement\ProjectManagement\obj\Debug\ProjectManagement.csprojResolveAssemblyReference.cache
