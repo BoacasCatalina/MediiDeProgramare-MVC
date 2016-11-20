@@ -24,6 +24,12 @@ namespace ProjectManagement
                 url:"Project/DoAnAction",
                 defaults: new { controller = "Project", action = "DoAnAction", name= UrlParameter.Optional}
                 );
+
+           /* routes.MapRoute(
+                name: "Project",
+                url: "Project/{alpha}",
+                defaults: new { controller = "Project", action = "Search", name = UrlParameter.Optional }
+                ); */
         }
     }
 }
