@@ -24,9 +24,10 @@ namespace ProjectManagement.Controllers
             return Content("This is Search method for the new route");
         }
 
-        public ActionResult HelloUser(String name)
+        public ActionResult HelloUser(string name)
         {
-            return Content("Hello " + name);
+            string encodedName = Server.HtmlEncode(name); 
+            return Content("Hello: " +  encodedName);
         }
     }
 }
