@@ -23,5 +23,10 @@ namespace ProjectManagement.Controllers
         {
             return Content("This is Search method for the new route");
         }
+
+        public ActionResult HelloUser(String name)
+        {
+            return Content("Hello " + name);
+        }
     }
 }
