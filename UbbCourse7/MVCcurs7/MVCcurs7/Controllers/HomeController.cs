@@ -20,6 +20,7 @@ namespace MVCcurs7.Controllers
             return View();
         }
 
+        [NonAction "calcNonAction"]
         public ActionResult Calc()
         {
 
@@ -33,6 +34,11 @@ namespace MVCcurs7.Controllers
 
         [HttpPost]
         public ActionResult VerbsTest()
+        {
+            return Content("Hello");
+        }
+
+        public ActionResult ThisMethodNeedsAuthorization()
         {
             return Content("Hello");
         }
