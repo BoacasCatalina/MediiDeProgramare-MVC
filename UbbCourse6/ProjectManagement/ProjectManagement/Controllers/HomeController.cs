@@ -16,7 +16,7 @@ namespace ProjectManagement.Controllers
 
         public ActionResult About()
         {
-           // ViewBag.Message = "Your application description page.";
+            // ViewBag.Message = "Your application description page.";
             //ViewBag.Author = "Catalina Boacas";
             var model = new AboutModel();
             model.Message = "Your application description page. Test";
@@ -39,12 +39,27 @@ namespace ProjectManagement.Controllers
             double averageOfNumbers = sumOfListNumbers / 2;
 
             return Content("The sum of numbers is: " + sumOfListNumbers + "<br>" + "The average of numbers is: " + averageOfNumbers);
-           
+
         }
 
         public ActionResult HelloWorld()
         {
             return Content("Hello World");
+        }
+
+        public ActionResult RedirectToActionInHomeController()
+        {
+            return RedirectToAction("Index");
+        }
+
+        public ActionResult RedirectToRoute()
+        {
+            return RedirectToRoute(new { controller = "Home", action = "About" });
+        }
+
+        public ActionResult ReturnFile()
+        {
+            return File("Content", "Site.css");
         }
     }
 }
