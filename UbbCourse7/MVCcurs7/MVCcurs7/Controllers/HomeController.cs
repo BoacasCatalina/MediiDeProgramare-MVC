@@ -20,7 +20,7 @@ namespace MVCcurs7.Controllers
             return View();
         }
 
-        [NonAction "calcNonAction"]
+       // [NonAction "calcNonAction"]
         public ActionResult Calc()
         {
 
