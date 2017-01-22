@@ -9,8 +9,7 @@ namespace RazorProject.Controllers
 {
     public class EvaluationController : Controller
     {
-
-        ProjectEvaluation lista = new ProjectEvaluation();
+        
         public static List<ProjectEvaluation> listOfProjects = new List<ProjectEvaluation>
         {
             new ProjectEvaluation() { city = "Cluj", name = "test", country = "Romania", rating= 2.3 , id = 2},
@@ -56,23 +55,20 @@ namespace RazorProject.Controllers
         // GET: Evaluation/Edit/5
         public ActionResult Edit(int id)
         {
-            return View();
+            var evaluation = listOfProjects.Single(e => e.id == id);
+            return View(evaluation);
         }
 
         // POST: Evaluation/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
-            try
+            var evaluation = listOfProjects.Single(e => e.id == id);
+            if(TryUpdateModel(evaluation))
             {
-                // TODO: Add update logic here
-
                 return RedirectToAction("Index");
             }
-            catch
-            {
-                return View();
-            }
+            return View(evaluation);
         }
 
         // GET: Evaluation/Delete/5
