@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace RazorProject.Models
 {
+    [Bind(Exclude = "country")]
     public class ProjectEvaluation
     {
         public string name { get; set; }
