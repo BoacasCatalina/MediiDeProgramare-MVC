@@ -13,9 +13,9 @@ namespace RazorProject.Controllers
         ProjectEvaluation lista = new ProjectEvaluation();
         public static List<ProjectEvaluation> listOfProjects = new List<ProjectEvaluation>
         {
-            new ProjectEvaluation() { city = "Cluj", name = "test", country = "Romania", rating= 2.3},
-            new ProjectEvaluation() { city = "Cluj1TEST", name = "test1", country = "Romania1", rating= 2.31},
-            new ProjectEvaluation() { city = "<script>alert('xss');</script>", name = "test2", country = "Romania2", rating= 2.32}
+            new ProjectEvaluation() { city = "Cluj", name = "test", country = "Romania", rating= 2.3 , id = 2},
+            new ProjectEvaluation() { city = "Cluj1TEST", name = "test1", country = "Romania1", rating= 2.31, id = 1},
+            new ProjectEvaluation() { city = "<script>alert('xss');</script>", name = "test2", country = "Romania2", rating= 2.32, id = 3}
         };
 
 

@@ -1,12 +1,6 @@
-E:\Medii de programare avansate\UbbCourse1\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe.config
-E:\Medii de programare avansate\UbbCourse1\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe
-E:\Medii de programare avansate\UbbCourse1\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.pdb
-E:\Medii de programare avansate\UbbCourse1\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.csprojResolveAssemblyReference.cache
-E:\Medii de programare avansate\UbbCourse1\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.exe
-E:\Medii de programare avansate\UbbCourse1\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.pdb
-E:\mvc\UbbCourse1\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe.config
-E:\mvc\UbbCourse1\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.exe
-E:\mvc\UbbCourse1\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.pdb
-E:\mvc\UbbCourse1\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe
-E:\mvc\UbbCourse1\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.pdb
-E:\mvc\UbbCourse1\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.csprojResolveAssemblyReference.cache
+E:\MediiDeProgramare-MVC\UBBCourse2\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe.config
+E:\MediiDeProgramare-MVC\UBBCourse2\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.exe
+E:\MediiDeProgramare-MVC\UBBCourse2\ClassesTutorial\ClassesTutorial\bin\Debug\ClassesTutorial.pdb
+E:\MediiDeProgramare-MVC\UBBCourse2\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.csprojResolveAssemblyReference.cache
+E:\MediiDeProgramare-MVC\UBBCourse2\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.exe
+E:\MediiDeProgramare-MVC\UBBCourse2\ClassesTutorial\ClassesTutorial\obj\Debug\ClassesTutorial.pdb

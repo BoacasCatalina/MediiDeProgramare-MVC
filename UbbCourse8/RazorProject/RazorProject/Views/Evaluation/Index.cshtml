@@ -8,6 +8,7 @@
 
 <p>
     @Html.ActionLink("Create New", "Create")
+    @Html.DisplayNameFor(Model => Model.id)
 </p>
 @foreach(var item in Model)
 {
@@ -58,3 +59,9 @@
 }
 
 </table>*@
+
+@section test{
+    <div>
+        TotalNumberOfEvaluation = @Model.Count();
+    </div>
+    }
