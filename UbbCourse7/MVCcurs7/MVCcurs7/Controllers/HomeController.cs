@@ -20,10 +20,9 @@ namespace MVCcurs7.Controllers
             return View();
         }
 
-       // [NonAction "calcNonAction"]
+        [NonAction]
         public ActionResult Calc()
         {
-
             return View();
         }
 
@@ -32,15 +31,16 @@ namespace MVCcurs7.Controllers
             return Calc();
         }
 
-        [HttpPost]
+       // [HttpPost]
+       [HttpGet]
         public ActionResult VerbsTest()
         {
-            return Content("Hello");
+            return Content("Hello VerbsTest");
         }
-
+        //[Authorize(Roles="Admin")]
         public ActionResult ThisMethodNeedsAuthorization()
         {
-            return Content("Hello");
+            return Content("Hello ThisMethodNeedsAuthorization");
         }
     }
 }
