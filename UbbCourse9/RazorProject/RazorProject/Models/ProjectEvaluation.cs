@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.ComponentModel;
 
 namespace RazorProject.Models
 {
@@ -12,6 +13,7 @@ namespace RazorProject.Models
     {
         [Required]
         [StringLength(1000)]
+        [DisplayName("nume")]
         public string name { get; set; }
         public string city { get; set; }
         public string country { get; set; }
