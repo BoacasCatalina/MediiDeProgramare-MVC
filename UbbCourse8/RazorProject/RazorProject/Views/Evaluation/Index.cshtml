@@ -61,6 +61,17 @@
 
 </table>*@
 
+<div>
+    <p>Partial View</p>
+    @foreach (var item in Model)
+    {
+        <h4>@item.name</h4>
+        <span>@item.rating</span>
+        <p>@item.city, @item.country, @item.id</p>
+        @Html.Partial("~/Views/Evaluation/_Evaluation.cshtml", item)
+    }
+</div>
+
 @section test{
     <div>
         TotalNumberOfEvaluations is @Model.Count();
